@@ -1,0 +1,25 @@
+.sizing{
+    margin:10px;
+    text-align: center;
+    background:url(images/jokerSmile.png);
+    background-size: cover;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    border: solid 5px black;
+}
+
+.sizing > p{
+color:white;
+padding: 20px;
+font-size: 100px;
+text-shadow:5px 5px #df5252;
+
+}
+.red{
+    color:red;
+    text-shadow:2px 2px #6e6a6a;
+
+}
+.black{
+    color:black;
+}
