@@ -1,25 +1,32 @@
-.sizing{
-    margin:10px;
+.clr{
+    clear: both;
+}
+
+.container{
+    display:flex;
+    background-color: #EEE;
+    /*width: 800px;
+    padding:10px;*/
+    flex-wrap: wrap;
+}
+.container div{
+    background-color: rgb(173, 173, 173);
+   padding:10px;
     text-align: center;
-    background:url(images/jokerSmile.png);
-    background-size: cover;
-    background-origin: content-box;
-    background-repeat: no-repeat;
-    border: solid 5px black;
+    font-size: 40px;
+    margin:10px;
 }
-
-.sizing > p{
-color:white;
-padding: 20px;
-font-size: 100px;
-text-shadow:5px 5px #df5252;
-
+.box{
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500PX;
+    border: solid black 2px;
+    margin:10px;
 }
-.red{
-    color:red;
-    text-shadow:2px 2px #6e6a6a;
+.centre{
+    background-color: rgb(173, 173, 173);
 
-}
-.black{
-    color:black;
+
 }
